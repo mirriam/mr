@@ -1,7 +1,7 @@
 name: LinkedIn Job Scraper
 on:
   schedule:
-    - cron: '48 12 */2 * *'
+    - cron: '8 5 * * *'
   workflow_dispatch:
 jobs:
   scrape:
